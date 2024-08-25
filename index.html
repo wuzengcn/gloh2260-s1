@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>GLOH 2260: Introduction to Health Economics</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Wu Zeng, MD, PhD" />
+    <script src="libs/header-attrs-2.22/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rladies-fonts.css" rel="stylesheet" />
+    <link href="libs/tile-view-0.2.6/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view-0.2.6/tile-view.js"></script>
+    <link href="libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset-0.2.6/panelset.js"></script>
+    <script src="libs/fabric-4.3.1/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble-0.0.1/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble-0.0.1/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <link rel="stylesheet" href="libs/css/hygge-gu.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+class: title-slide, center, middle, inverse
+
+# GLOH 2260: Introduction to Health Economics
+
+&lt;!--- ### &lt;br/&gt; Subtitle ---&gt;
+
+#### Wu Zeng, MD, PhD
+
+&lt;img src="libs/pic/GU.gif" width="10%" align="center" /&gt; 
+
+#### Department of Global Health
+
+#### Georgetown University
+
+### Sept 10 2024
+
+---
+class:middle
+
+# Introduce yourself 
+
+1. Name and where are you from?
+
+1. Why are you interested in this class?
+
+1. What would you like to achieve from the class?
+
+---
+class: middle
+
+# Instructor
+
+.pull-left[
+
+- Faculty: Wu Zeng ("Wu")
+
+  - Epidemiology, Biostatistics, and preventive medicine
+  
+  - Health Financing and heath systems
+  
+  - Econometrics
+  
+  - Health Economics
+  
+  - Economic Evaluation 
+  
+  - Research Methods
+  
+  - Data analysis with R 
+]
+
+.pull-right[
+
+&lt;center&gt; 
+
+&lt;img style = "border-radius:50%;" src = "https://gu360--c.na30.content.force.com/servlet/servlet.ImageServer?id=0151Q000005FMtlQAG&amp;oid=00D36000000rQpzEAE", width = "200px"&gt;
+
+  Office: Room 219 St Mary's Hall 
+
+Office hour: 12:00 PM - 1:00 PM on Thursday or .red[by appointment]
+]
+---
+
+class: middle 
+
+# Learning resources 
+
+.pull-left[
+- Lectures 
+
+- Required books: 
+
+  - [Introduction to Health Economics](https://www.manning.com/books/r-in-action-second-edition)
+  
+- Case studies 
+
+- Online resources
+
+- Canvas 
+
+- Instructor
+
+- Each other
+]
+
+.pull-right[
+
+&lt;img src = "https://pictures.abebooks.com/isbn/9780335228454-us.jpg", width = "300px"&gt;
+
+]
+---
+class: middle
+
+# Course schedule 
+
+.pull-left[
+
+- 2.5 hours/day (Tuesday: 2-4:30 PM)
+
+- 5 assignments(including final presentation), 1 final paper
+
+]
+
+.pull-right[
+
+&lt;img style = "border-radius:10%;" src = "https://previews.123rf.com/images/topvectors/topvectors1704/topvectors170400683/76172547-schedule-calendar-and-pencils-set-of-school-and-education-related-objects-in-colorful-cartoon-style.jpg" width = "400px"/&gt;
+
+]
+
+---
+class: top
+
+# Learning objectives
+
+.pull-left[
+
+1. Demand for health services
+
+  - Understand the factors that influence consumer demand for medical care, including the role of prices, insurance, advertising, time, and the influence of providers
+
+2.	Supply of medical services 
+
+  - Understand the fundamentals of hospital and physician services production, including the concepts of input factor substitution, economies of scale and scope, and technology adoption decisions.
+
+3.	Market of medicare care 
+
+  - Understand the nature of competition within the hospital and physician services markets, including the role of non-traditional competitors, including specialty hospitals, ambulatory surgery centers, and retail clinics
+]
+
+.pull-right[
+
+4. Market failure of medicare care 
+
+  - Explain the primary market failures within health care industries and the rationale for government intervention
+  
+5. Demand for health insurance 
+
+  - Understand the factors that influence consumer demand for health insurance, including the role of prices, income, and information 
+  
+6. Market for health insurance 
+
+  - Describe the market for health insurance, including how adverse selection and moral hazard influence market functioning and competition,
+
+]
+---
+class: middle 
+
+.pull-left[
+# Teaching methods 
+
+- Lectures 
+
+- In-class exercise 
+
+- Discussion 
+]
+
+.pull-right[
+
+&lt;img style = "border-radius:10%;" src = "https://previews.123rf.com/images/goodshotalan/goodshotalan1205/goodshotalan120500003/13554868-vector-cartoon-of-executive-giving-business-lecture.jpg" width = "400px"/&gt;
+
+]
+
+---
+class: middle 
+
+### Course evaluation 
+
+.pull-left[
+
+- Class participation (10%)&lt;sup&gt;1&lt;/sup&gt;
+
+- Assignments (60%)
+
+- Mid-term exam (15%)
+
+- Final essay (15%)
+]
+
+.pull-right[
+
+&lt;img style = "border-radius:20%;" src = "http://www.creativejeffrey.com/pictures/cartoon_examine_idea.jpg" width ="400px" /&gt;
+
+]
+
+
+.footnote[&lt;sup&gt;1&lt;/sup&gt; If students miss three sessions during the semester, .red[`F`] will be given]
+
+???
+This is note for myself. it is important to emphasize that students who missed three sessions will be given a F in the final.
+
+---
+class: middle 
+
+# Scheduel of class 
+
+.pull-left[
+9/10: Session 1: Overview of Economics and health economics
+
+9/17: Session 2: Key method in economics
+
+9/24: Session 3: A simple model of demand
+
+10/1: Session 4: Supply and price determination
+
+10/8: Session 5: Elasticity of demand
+
+10/15: Session 6:  Risk, uncertainty and modeling demand
+
+10/22: Session 7: Mid-term exam 
+]
+
+.pull-right[
+10/29: Session 8: Production and costs in short and long run and perspective
+
+11/5: Session 9: Markets, efficiency, market failure
+
+11/12: Session 10: Health Financing and Universal Health Coverage
+
+11/19: Session 11: Private health insurance and social insurance
+
+11/26: Session 12: Economics evaluation 1
+
+12/3: Session 13: Economics evaluation 2
+
+12/10: Session 14: Presentation
+
+]
+---
+class: middle 
+
+# What is prohibited 
+
+- Academic cheating 
+
+- Plagiarism 
+
+- If you are uncertain in a specific instance, ask the instructor
+---
+class: center, middle, inverse
+
+# Overview of Health Economics
+---
+
+class: middle, center
+
+
+&lt;img src = "https://digitalho.com/wp-content/uploads/2014/11/health-economics-modelling-heor.png" width = 800 px /&gt;
+
+--
+
+&lt;br&gt;
+
+# What is the purpose of study health economics? 
+
+---
+class: middle
+
+.pull-left[
+
+&gt; All models are wrong, but some are useful
+
+&gt; --- George E.P. Box
+]
+
+.pull-right[
+
+&lt;img src="https://tribalsimplicity.files.wordpress.com/2014/07/quotes_george-box_models-wrong-some-useful_tribal-simplicity.png"&gt;
+
+]
+
+---
+
+Class: middle 
+
+# Objectives of course
+
+.pull-left[
+
+- Appreciate the essential characteristics, role and
+importance of economics
+
+- Understand how economics is applied to the
+study of health and health care
+
+- Identify how economics relates to other
+considerations within health and health care
+]
+
+.pull-right[
+
+
+]
+---
+class: inverse middle center
+
+# .large[Economics and Health economics]
+
+---
+# What is economics (your understanding)
+
+What is your understanding of economics, what is about? (give a few choices for students to discuss)
+
+--
+---
+
+# What is economics 
+
+&lt;center&gt;
+&lt;iframe width="868" height="488" src="https://www.youtube.com/embed/dVTNmSmUo14" title="What is Economics? An Intro to Economics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+---
+# Main questions for economics
+
+- What products are being produced and in what quantities? (For example: what
+types of malarial prevention measures are being provided and how much of
+each type?)
+
+- By what methods are these products produced? (What resources are required to
+produce these malarial prevention measures?)
+
+- How is society’s output of goods and services divided among its members? (Who
+has access to these measures?)
+
+- How efficient is society’s production and distribution? (Can we get the same amount of protection from malaria using fewer resources? Would an AIDS awareness campaign be a more effective use of resources than malarial prevention?)
+
+---
+# Economics is about ...
+
+.pull-left[
+
+- limited resources 
+
+- Unlimited .red[wants]
+
+- Choosing between which .red[wants] we can .red[afford] given our resource .red[budget]
+]
+
+.pull-right[
+
+&lt;center&gt;
+
+&lt;image src = "libs/pic/Choice.png" width = "350"&gt;
+
+&lt;center&gt; 
+
+]
+---
+# Economics is about choice
+
+&lt;center&gt;
+
+&lt;image src = "libs/pic/choice2.png" width = "800"&gt;
+
+&lt;center&gt; 
+
+---
+# Personal choice 
+
+- ## For lunch I could have
+
+  - Whopper meal deal (small)
+
+  - Tall latte and blueberry muffin (to go)
+
+  - Tuna sandwich &amp; cracked pepper crisps
+
+  - Pint of Guinness &amp; packet peanuts
+
+---
+
+# Government choice
+
+- ### Government could fund one IVF course or 
+
+  - ### One-third of a cochlear implant
+  
+  - ### 1 heart bypass operation
+  
+  - ### 11 cataract removals
+
+  - ### 150 MMR vaccinations
+  
+  - ### One-thousandth of a Challenger 2 tank
+---
+### Economists view of the world
+
+.pull-left[
+
+&lt;center&gt;
+
+&lt;img src="libs/pic/bottle.png" width ="200"&gt;
+
+&lt;center&gt;
+]
+
+.pull-right[
+- ### Pessimist: bottle ½ empty
+
+- ### Optimist: bottle ½ full
+
+- ### Economist: bottle ½ wasted
+
+&lt;center&gt; 
+
+.large[#Inefficient!]
+
+&lt;center&gt;
+
+]
+---
+# Efficiency 
+
+- ## Efficiency=making most of what we’ve got!
+
+  - Technical Efficiency = producing maximum benefit (outputs) from given inputs (resources), or given level of benefit from least inputs
+  
+  - Economic Efficiency = producing maximum benefit from given budget, or given level of benefit at least possible cost (value of resources)
+  
+  - Allocative Efficiency = producing the mix of benefits (from a given set of resources) that is most highly valued
+  
+---
+# Example of efficiency 
+
+- Primary care clinic combines inputs to provide ‘health’ for a population:
+
+  - consultation rooms, treatment rooms, office space, doctor time, nurse time, etc.
+  
+  - Different possible combinations of inputs:
+  
+    - a larger waiting area and fewer treatment rooms, or more nurses and fewer doctors, etc.
+    
+  - Technically efficient:
+  
+    - not possible to provide ‘health’ to any more patients without using more of at least one input (nurse time, doctor time, etc.)
+
+---
+# Economist is NOT about ...
+
+- ### Concerned with (saving) money
+
+  - Store of value
+  
+  - Means of exchange
+
+- ### The same as accountancy
+
+  - Monitoring financial transactions
+  
+- ### Only practiced by economists
+
+  - Everyone has choices
+  
+  - Economists just think of these explicitly
+  
+---
+# Economics is
+
+- ### Concerned with
+
+  - Costs (resource use)
+
+  - Benefits
+
+  - Choice
+  
+  - Efficiency
+  
+- ### Basically, if I choose X do the benefits outweigh the costs?
+
+  - If yes then doing X is efficient
+  
+  - If no then doing X is inefficient
+  
+---
+
+# Application of economics
+
+  - Positive economics
+  
+  - Normative economics
+
+---
+
+# Health and economics 
+
+- Economics focuses on ‘utility’: the level of
+‘happiness’ resulting from consumption
+
+- Health is thus one component of utility. This
+has important implications:
+
+  - Health is not the sole objective of behaviours
+  
+  -  Creates trade-offs and choices between health and
+other objectives – e.g. education, defence etc
+
+- Health economics is the discipline of economics
+applied to the topic of health
+
+  - In practice, health economics is predominantly (but
+not solely) “health care” economics: goods and
+services produced (by health sector) primarily to
+affect health status
+
+---
+
+# Health Economics map 
+
+&lt;center&gt;
+
+&lt;img src="libs/pic/HE-pilot.png" width = "800"&gt;
+
+&lt;center&gt;
+
+---
+# Value of health 
+
+- Quality-adjusted life years (QALYs) and disability-adjusted life years (DALYs)
+
+  - Combine length and quality of life
+  
+---
+
+# Other influences on health 
+
+  - ## Economics of obesity - technology is fattening
+  
+    - Study examined the relationship between ‘price’ of
+food and food consumption/weight
+
+    - Technological change has altered the relative prices of
+consuming calories and expending calories 
+
+      - Reduced the price of food (calories)
+      
+      - Reduced time costs of food (calories) preparation
+      
+      - Changed the nature of work
+---
+
+# Demand for health care, supply of health care, and market analysis 
+
+
+---
+# Creating incentives 
+
+- “The typical economist believes the world has not yet invented a problem that cannot be fixed if given a free hand to design the proper incentive scheme” (Levitt and Dubner, “Freakonomics”)
+
+- An incentive is simply a means by which someone is persuaded to (not) do something
+
+  - Eg. F-F-S is to treat more patients; increase price of tobacco or soft-drinks is to reduce consumption; etc
+
+- Incentive is seen to be a means of urging people to do more of a ‘good’ thing and less of a ‘bad’ thing (a ‘perverse’ incentive is the reverse)
+---
+
+# Macro-economic appraisal 
+
+## WHO ranking of health systems
+
+---
+# Micro-economics appraisal 
+
+
+---
+# Is health economics ethical? 
+
+Health economics may appear to be unethical
+because it implies some individuals being denied
+health care. But:
+• The need to ration is not simply the result of having a
+small budget. It is more fundamental than this
+• Health care is only one way of improving health –
+better sanitation, housing, education, environment, etc
+• Economics tends to focus on society rather than
+individuals, requiring divergent ethical constructs
+! Unethical not to consider economic aspects:
+• Rationing would occur by another (opaque) means
+• Will never have enough resources to exhaust all the
+possibilities to produce some (small) health benefit
+• There are other things of value than ‘health’ - balance
+
+---
+# Final word...
+
+- Health economics is the application of economics to the study of health and health care
+
+- It is important because:
+
+  - Our health is important to us
+  
+  - Health is affected by our choices
+  
+  - The health sector is very significant to the economy
+  
+  - Decisions in health (care) often determined by economic environment
+
+- (Health) economics is not concerned with saving money, but with improving people’s lives
+
+- Health economics is quite literally a matter of life and death!
+
+---
+class: middle, center, inverse
+
+# .large[Thank you!]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
